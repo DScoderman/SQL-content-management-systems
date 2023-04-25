@@ -1,18 +1,25 @@
--- Query for the select all departments
-SELECT * 
-FROM department;
+-- data to insert into department
 
--- Query for the select all role
+INSERT INTO department (name)
+VALUES ("ENGINEERING"),
+        ("INNOVATION"),
+        ("MARKETING"),
+        ("LEGAL"),
+        ("ACCOUNTING");
 
-SELECT * 
-FROM role;
+-- CODE DATA FOR ROLES
 
--- Query for the select all employee's role;
+INSERT INTO role (title, salary, department_id)
+VALUES ('software wizard', 100000, 1),
+        ('research associate', 80000, 2),
+        ('senior marketing expert', 75000, 3),
+        ('lawyer', 120000, 4);
 
-SELECT *
-FROM employee;
-
--- Query to create a new employee in the system;
-
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
--- TODO: Check if template literals could work for VALUES ${}
+-- CODE FOR THE EMPLOYEE
+-- TODO: DOUBLE CHECK MANAGER ID STUFF
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES 
+        ('Chudd', 'Jones', 1, null),
+        ('Ludachris', 'Zones', 2, 1), 
+        ('Nick', 'Satchel', 3, 1),
+        ('Saul', 'Goodman', 4, 1);

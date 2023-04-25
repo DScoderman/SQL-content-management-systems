@@ -1,7 +1,26 @@
 {
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^9.1.5",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
     "mysql2": "^3.2.3"
-  }
+  },
+  "name": "sql-content-management-systems",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DScoderman/SQL-content-management-systems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DScoderman/SQL-content-management-systems/issues"
+  },
+  "homepage": "https://github.com/DScoderman/SQL-content-management-systems#readme"
 }

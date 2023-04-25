@@ -1,13 +1,21 @@
+const cTable = require('console.table');
 const inquirer = require('inquirer')
-const ctable = require('console.table')
-const mysql = require ('mysql2')
+const questions = require('./questions');
+const mysql = require('mysql2');
+const querySearch = require('./db/DB.js')
 
+const db = mysql.createConnection({
+    host: "localhost",
+    user:"root",
+    password: 'Drexel2021!',
+    database: 'company_db'
+});
+db.connect(err=>{
+    if(err) throw err;
+}); 
 
+function init = () => viewOptions()
 
-function viewRoles() => {
-    db.query("SELECT * FROM roles", (error, results) => {
-        if (error), throw error;
-        console.table(results);
-        init();
-    } )
-}
+const viewOptions =
+
+ 
