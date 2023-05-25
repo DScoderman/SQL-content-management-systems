@@ -10,7 +10,7 @@ To install, your going to need to make sure you have inquirer, dotenv, and mysql
     "inquirer": "^8.2.4",
     "mysql2": "^3.2.3".
     
- With the packages dealt with, we can now focus on getting SQL installed. Best refer to Oracle's documentation [Here](https://www.google.com "here")
+ With the packages dealt with, we can now focus on getting SQL installed. Best refer to Oracle's documentation [Here](https://docs.oracle.com/cd/E39885_01/doc.40/e38928/install.htm#RPTIG122 "here:")
 
 ## Usage
 
