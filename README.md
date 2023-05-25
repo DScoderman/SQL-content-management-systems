@@ -21,7 +21,7 @@ To ensure we have to data to work with, you will also need to populate a databas
 
 We now need to select the database to use. To do this, enter the command "SOURCE db/schema.sql;" and you will now have a database to use. We will also populate the database by running this command shortly after: "SOURCE db/seed.sql;" and give ourselves data to play with. With that done we can now log out of MYSQL by running the command "QUIT".
 
-Once this is complete, run this command to get the program running: "npm start build". From there, a list of options will appear giving you ways to examine the database itself. To see it in action, check this video below:[ 
-](https://drive.google.com/file/d/1G9eqgOzRgNCEsdILP-tYVInXjmwFYedu/view)
+Once this is complete, run this command to get the program running: "npm start build". From there, a list of options will appear giving you ways to examine the database itself. To see it in action, check this video below:
+https://drive.google.com/file/d/1G9eqgOzRgNCEsdILP-tYVInXjmwFYedu/view
 
 
